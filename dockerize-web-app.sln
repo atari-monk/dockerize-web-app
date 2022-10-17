@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerSqlAsp", "DockerSqlAsp\DockerSqlAsp.csproj", "{64D3C61B-8B9A-4F45-BAE5-EACD10CB3341}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EB0A4563-B8B0-4335-ADC4-9667DA8E0F49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64D3C61B-8B9A-4F45-BAE5-EACD10CB3341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D3C61B-8B9A-4F45-BAE5-EACD10CB3341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D3C61B-8B9A-4F45-BAE5-EACD10CB3341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D3C61B-8B9A-4F45-BAE5-EACD10CB3341}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0A4563-B8B0-4335-ADC4-9667DA8E0F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0A4563-B8B0-4335-ADC4-9667DA8E0F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0A4563-B8B0-4335-ADC4-9667DA8E0F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0A4563-B8B0-4335-ADC4-9667DA8E0F49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E8D8107-A0F0-41BE-8162-FB45875B6FB5}
+	EndGlobalSection
+EndGlobal
