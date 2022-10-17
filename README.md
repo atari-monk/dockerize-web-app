@@ -1,2 +1,2 @@
 # dockerize-web-app
-Example from https://blog.christian-schou.dk/dockerize-net-core-web-api-with-ms-sql-server/
+Example from https://www.section.io/engineering-education/dockerizing-an-aspnet-core-web-api-app-and-sql-server/
