@@ -1,11 +1,16 @@
 using DockerSqlAsp.Models;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+var conStrBuilder = new SqlConnectionStringBuilder(
+        builder.Configuration.GetConnectionString("Films"));
+conStrBuilder.Password = builder.Configuration["DbPassword"];
+var connection = conStrBuilder.ConnectionString;
 builder.Services.AddDbContext<FilmContext>(options =>
-	   options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+	   options.UseSqlServer(connection));
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

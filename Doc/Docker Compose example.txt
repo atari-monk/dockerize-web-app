@@ -1,3 +1,4 @@
+Notes on set up asp.net web app with sql server with docker compose
 https://www.section.io/engineering-education/dockerizing-an-aspnet-core-web-api-app-and-sql-server/
 This done in Visual Studio
 SqlServer
